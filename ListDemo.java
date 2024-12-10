@@ -1,5 +1,5 @@
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class ListDemo {
@@ -18,7 +18,9 @@ public class ListDemo {
      System.out.println(choco);
      System.out.println(choco.get(1));
      System.out.println(choco.size());
-    System.out.println(choco.lastIndexOf(9));
+     System.out.println(choco.lastIndexOf(9));
+     Collections.sort(choco);
+     System.out.println(choco);
 for(int t:choco)
 {
   System.err.println(t);
