@@ -22,6 +22,7 @@ public class addarr {
     for (int i = 0; i < arr3.length; i++) {
       arr3[i] = arr1[i] + arr2[i];
     }
+    
     for (int i = 0; i < arr3.length; i++) {
       System.out.println(arr3[i]);
     }
